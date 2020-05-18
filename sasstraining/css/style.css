@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+}
+
+.logo {
+  background-color: #81D742;
+  display: inline-block;
+  font-size: 1.8em;
+  padding: 0.3em;
+  color: #48592D;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  transition: left 0.6s ease-in-out;
+}
+
+main {
+  padding: 0 2em;
+}
+
+section {
+  color: #81D742;
+}
+section h2 {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+header {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  border-bottom: 4px solid #d6e3fa;
+}
+header h1 {
+  font-weight: 100;
+}
+header p {
+  padding: 1em;
+}
+
+nav {
+  background-color: #ddd;
+  position: absolute;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 5em 0.5em 2em;
+  border-bottom: 1px solid #fff;
+  color: #48592D;
+}
+nav a.actief {
+  border-bottom: 4px solid #FF652A;
+}
+
+#haal-menu:checked ~ .container {
+  left: 10em;
+}
+
+#haal-meu:checked ~ .menu-halen .fa-times {
+  display: inline-block;
+}
+
+#haal-meu:checked ~ .menu-halen .fa-bars {
+  display: none;
+}
+
+.fa-bars {
+  display: inline-block;
+}
+
+.fa-times {
+  display: none;
+}
+
+.menu-halen {
+  float: right;
+  font-size: 1.5em;
+  padding: 0.3em 2rem 0.3em 5em;
+  cursor: pointer;
+}
+
+.knop {
+  background-color: #81D742;
+  color: #48592D;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.knop:hover {
+  background-color: #48592D;
+  color: #fff;
+}
+.knop-houder {
+  text-align: center;
+  padding: 1em 0 1.5em;
+  border-bottom: 1px solid #48592D;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 1em 0;
+  border-bottom: 4px solid #d6e3fa;
+}
+footer p {
+  padding: 2em;
+  display: inline-block;
+}
+footer #validator {
+  padding: 0 2em 2em;
+  text-align: right;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+}
+
+.logo {
+  background-color: #81D742;
+  display: inline-block;
+  font-size: 1.8em;
+  padding: 0.3em;
+  color: #48592D;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  transition: left 0.6s ease-in-out;
+}
+
+main {
+  padding: 0 2em;
+}
+
+section {
+  color: #81D742;
+}
+section h2 {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

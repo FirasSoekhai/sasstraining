@@ -1,0 +1,14 @@
+footer {
+    background-color: $kleurtheo;
+    color: #fff;
+    padding: 1em 0;
+    border-bottom: 4px solid lighten($color: $kleurtheo, $amount: 25);
+    p {
+        padding: 2em;
+        display: inline-block;
+    }
+    #validator {
+        padding: 0 2em 2em;
+        text-align: right;
+    }
+}

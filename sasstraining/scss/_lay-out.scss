@@ -1,0 +1,26 @@
+body {
+    font-family: $mijnFont;
+}
+.logo {
+    background-color: $secundaire-kleur;
+    display: inline-block;
+    font-size: 1.8em;
+    padding: .3em;
+    color: $secundaire-kleur-donker;
+}
+.container {
+    position: relative;
+    left: 0;
+    transition: left .6s ease-in-out;
+}
+main {
+    padding: 0 2em;
+}
+section {
+    color: $secundaire-kleur;
+    h2 {
+        font-size: 2em;
+        padding: 1em;
+        text-align: center;
+    }
+}
