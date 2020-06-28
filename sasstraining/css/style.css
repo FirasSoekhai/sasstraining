@@ -75,6 +75,9 @@ nav a.actief {
 #haal-meu:checked ~ .menu-halen .fa-bars {
   display: none;
 }
+input {
+  display: none;
+}
 
 .fa-bars {
   display: inline-block;
@@ -151,6 +154,14 @@ section h2 {
   font-size: 2em;
   padding: 1em;
   text-align: center;
+}
+
+.logo {
+  background-color: #81D742;
+  display: inline-block;
+  font-size: 0.1em;
+  padding: 0.5em;
+  color: #23400d;
 }
 
 /*# sourceMappingURL=style.css.map */
